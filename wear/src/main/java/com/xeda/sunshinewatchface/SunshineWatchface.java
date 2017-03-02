@@ -220,6 +220,7 @@ public class SunshineWatchface extends CanvasWatchFaceService {
                     editor.putString(KEY_WEATHER, mWeather);
                     editor.putInt(KEY_WEATHER_ID, mWeatherId);
                     editor.apply();
+                    invalidate();
                 }
             }
         }
