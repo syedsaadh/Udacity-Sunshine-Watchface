@@ -172,6 +172,7 @@ public class SunshineSyncTask {
                                     }
                                 }
                             });
+                    cursor.close();
                 }
             }
 
